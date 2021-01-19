@@ -1,0 +1,26 @@
+*{
+  margin : 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+#one{
+  height: 100px;
+  width: 200px;
+  background-color: yellow;
+  color: red;
+  margin-top: 20px;
+  margin-left: 200px;
+}
+
+#two{
+  margin-top: 20px;
+  height: 100px;
+  width: 200px;
+  background-color: purple;
+  color:green;
+  margin-left: 200px;
+
+
+}
