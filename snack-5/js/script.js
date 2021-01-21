@@ -10,13 +10,15 @@ const myArrayo = ['pippo','pluto','paperino','paperone','paperina','paperoga'];
  let n1 = parseInt(prompt('kindly insert a number from 0 to 6'));
  let n2 = parseInt(prompt('kindly insert a number from 0 to 6'));
 
-console.log(n1,n2);
+// console.log(n1,n2);
 const client = [];
 
-myArrayo.forEach(function (element,index) {
-   if ( index > n1 && index < n2){
-     client.push(element);
-   }
- });
+ myArrayo.forEach((element,index) => {
+   // console.log(element,index);
 
+   if (index >= n1 && index <= n2 ){
+     client.push(element)
+   }
+
+ });
 console.log(client);
